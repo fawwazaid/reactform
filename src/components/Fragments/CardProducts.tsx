@@ -12,7 +12,7 @@ const CardProducts = (props: any) => {
 const Header = (props: any) => {
   const { image } = props;
   return (
-    <a href="#">
+    <a href="https://example.com">
       <img src={image} alt="" />
     </a>
   );
@@ -22,7 +22,7 @@ const Body = (props: any) => {
   const { children, name } = props;
   return (
     <div className="pb-5 px-5 pt-5 h-full">
-      <a href="#">
+      <a href="https://example.com">
         <h5 className="text-xl font-semibold tracking-tight text-white">
           {name}
         </h5>
