@@ -7,7 +7,6 @@ import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ErrorPage from "./pages/ErrorPage";
 import CategoryPage from "./pages/Category";
-import ProductsPage from "./pages/ProductsPage";
 
 const router = createBrowserRouter([
   {
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
   {
     path: "/cat",
     element: <CategoryPage />,
-  },
-  {
-    path: "/products",
-    element: <ProductsPage />,
   },
 ]);
 

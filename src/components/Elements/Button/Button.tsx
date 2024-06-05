@@ -1,15 +1,9 @@
 const Button = (props: any) => {
-  const {
-    children,
-    classname = "bg-black",
-    onClick = () => {},
-    type = "button",
-  } = props;
+  const { children, classname = "bg-black" } = props;
   return (
     <button
-      className={`ml-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded h-10 px-5 ${classname}`}
-      type={type}
-      onClick={onClick}
+      className={`h-10 px-5 font-semibold rounded-md ${classname} text-white`}
+      type="submit"
     >
       {children}
     </button>
